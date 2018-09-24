@@ -1,0 +1,63 @@
+
+//Creating a new enviorment//
+C:\Users\PR334507\AppData\Local\Continuum\anaconda3\Scripts>conda create --name PranayEnv python
+
+//inplace of python use numpy/pandas/anaconda
+
+conda install sqlalchemy
+conda install lxml
+conda install html5lib
+conda install BeautifulSoup4
+conda install matplotlib
+conda install seaborn
+conda install pandas-datareader
+conda install -n PranayEnv PyMysql
+conda install -n PranayEnv PyMssql
+conda install smtplib
+conda install scikit-learn
+
+
+To install new libraries into the existing env:
+
+conda install -n <env> <package>
+e.g.conda install --name PranayEnv Seaborn
+
+
+conda config --add channels conda-forge
+conda install pandas-datareader
+
+conda install -c anaconda mysql-connector-python
+conda install -c anaconda mysql-python
+
+
+
+IF pymssql doesn't work with anaconda or pip:
+
+check and download the .whl file according to system os and python version:
+(link: https://www.lfd.uci.edu/~gohlke/pythonlibs/#pymssql  , 
+  e.g. pymssql-2.1.3-cp36-cp36m-win_amd64.whl)
+
+Install the whl files in the below process :
+
+C:\Users\PR334507\AppData\Local\Continuum\anaconda3\Scripts\pip install pymssql-2.1.3-cp36-cp36m-win_amd64.whl
+
+Once installing check the the below script:
+
+""
+ import sqlalchemy
+>>> from sqlalchemy import create_engine, text, exc
+>>> from sqlalchemy.dialects.mssql import pymssql
+>>> sqlalchemy.create_engine('mssql+pymssql://sa:wipro@123@localhost:1433/MSSQL_PYTHON')
+Engine(mssql+pymssql://sa:***@localhost:1433/MSSQL_PYTHON)
+""
+
+
+
+pip install dash==0.21.1  # The core dash backend
+pip install dash-renderer==0.13.0  # The dash front-end
+pip install dash-html-components==0.11.0  # HTML components
+pip install dash-core-components==0.23.0  # Supercharged components
+pip install plotly --upgrade  # Plotly graphing library used in example
+
+https://owa.grameenphone.com/owa/?bO=1#path=/mail
+

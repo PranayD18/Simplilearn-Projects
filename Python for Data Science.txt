@@ -1,0 +1,9 @@
+Python for Data Science 
+
+- Knowledge in concepts of analytics methodologies. Python specific - Should have knowledge in python implementation of ML techniques like logistic regression, decision trees, k-means and hierarchical clustering and visualization of results. Expertise in relevant python packages like scipy, scikit-learn etc.
+
+
+
+Python-Scripting:
+
+Should be knowledgeable in basics of Python programming - to write, compile and execute programs. Should be knowledgeable on topics such as Python Data Types ( numbers, strings, lists, tuples, dictionary), Operators, Flow Control, Functions, CLI, Basic and File I/O, Packages and Modules, Error/Exception Handling and Basic Debugging using pdb.

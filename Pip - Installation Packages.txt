@@ -1,0 +1,22 @@
+
+SET Variable path; "C:\Users\PR334507\AppData\Local\Programs\Python\Python36"
+open--
+1.cmd
+2.python -m pip install --upgrade pip
+3.pip
+3.python -m pip freeze (if needed)
+
+now install any library start using -
+"pip install <package-name>"
+
+
+
+
+
+//------------Not Required-------------//
+click: https://pip.pypa.io/en/stable/quickstart/
+|
+Installation
+|
+get-pip.py (download as .py file)
+|
